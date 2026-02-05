@@ -405,65 +405,6 @@ In Synapse SQL Pool:
 
 ---
 
-## Future Enhancements
-
-### High Priority
-1. **Azure Data Factory Integration**
-   - Automate end-to-end pipeline orchestration
-   - Schedule daily batch processing
-   - Implement monitoring and alerting
-   - Add retry logic for failed steps
-
-2. **Enhanced Data Quality**
-   - Create data quality report table with issue counts
-   - Add data profiling metrics
-   - Implement anomaly detection for outliers
-   - Build data quality dashboard
-
-3. **Department Metadata**
-   - Add department capacity and staffing reference tables
-   - Calculate occupancy percentage based on actual capacity
-   - Include shift schedules for workload analysis
-
-### Medium Priority
-4. **Batch EHR Integration**
-   - Add daily batch ingestion path alongside streaming
-   - Merge streaming and batch data in Silver layer
-   - Handle late-arriving data scenarios
-
-5. **Advanced Security**
-   - Implement Row-Level Security (RLS) in Power BI
-   - Add department-level access controls
-   - Enable Azure AD authentication throughout
-   - Implement data masking for sensitive fields
-
-6. **Monitoring and Observability**
-   - Azure Monitor integration for pipeline health
-   - Alert routing for failures
-   - Performance metrics dashboard
-   - Cost tracking and optimization
-
-### Long-term
-7. **Predictive Analytics**
-   - ML models for occupancy forecasting
-   - Staffing demand prediction
-   - Patient readmission risk scoring
-   - Length of stay prediction
-
-8. **Additional Dashboards**
-   - Executive summary dashboard
-   - Department-specific operational views
-   - Staffing and resource allocation dashboard
-   - Financial impact analysis
-
-9. **Production Hardening**
-   - Environment separation (Dev/Test/Prod)
-   - CI/CD pipeline with automated testing
-   - Disaster recovery and backup strategy
-   - Full HIPAA compliance implementation
-
----
-
 ## Documentation
 
 ### Included Documents
@@ -512,19 +453,6 @@ In Synapse SQL Pool:
 
 ---
 
-## Contributing
-
-This is a portfolio/demonstration project. If you'd like to use it as a template:
-
-1. Fork the repository
-2. Update configuration files with your Azure resource details
-3. Customize the data model for your use case
-4. Extend with additional features as needed
-
-Feel free to open issues for questions or suggestions.
-
----
-
 ## License
 
 MIT License
@@ -554,29 +482,3 @@ SOFTWARE.
 ## Author
 
 **Tharanitharan Muthuthirumaran**
-
-Data Engineer | Azure Cloud Specialist
-
-This project demonstrates expertise in:
-- Azure cloud services (Event Hubs, Databricks, Synapse, ADLS Gen2)
-- Real-time data streaming and processing
-- Medallion architecture and data lake design
-- Dimensional modeling and data warehousing
-- Power BI dashboard development
-- PySpark and SQL programming
-- Data quality and governance practices
-
----
-
-## Acknowledgments
-
-- Inspired by real-world healthcare analytics challenges
-- Built following Azure best practices and design patterns
-- Implements industry-standard medallion architecture
-- Uses synthetic data to demonstrate production-grade capabilities
-
----
-
-**⭐ If you find this project helpful, please consider giving it a star!**
-
-For questions or collaboration opportunities, feel free to reach out.
